@@ -20,5 +20,7 @@ array.splice(index,howmany,item1,......,itemn);
 - howmany：必填，要删除的元素的数目，如果为0，则不会删除元素
 - item1...itemn:选填，向数组添加的新元素
 
+# image对象
+
 
 
