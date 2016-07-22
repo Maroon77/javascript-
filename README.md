@@ -4,11 +4,12 @@
 - stringObject.substring(start,end)
 - stringObject.substr(start,length)
 
-###### String对象的方法slice()、substring()、substr()都可以返回字符串的指定部分。Slice()比substring()要灵活，它允许使用负数作为参数。slice()与substr()不同，它用两个字符的**位置**来指定子串，而substr()用**字符位置和长度**来指定子串。
-PS：String.slice()和Array.slice()类似，都是从字符串/数组里返回start到end之间的字符或者数组。
+String对象的方法slice()、substring()、substr()都可以返回字符串的指定部分。Slice()比substring()要灵活，它允许使用负数作为参数。slice()与substr()不同，它用两个字符的**位置**来指定子串，而substr()用**字符位置和长度**来指定子串。
+
+String.slice()和Array.slice()类似，都是从字符串/数组里返回start到end之间的字符或者数组。
     
 # window对象
-### 1、window.opener.location.reload()
-### 2、window.location.reload()
+- window.opener.location.reload()
+- window.location.reload()
 
 
