@@ -22,6 +22,18 @@ array.splice(index,howmany,item1,......,itemn);
 
 # image对象
 
+# 浏览器缓存
+浏览器缓存是浏览器端保存数据用于快速读取或避免重复资源请求的优化机制，加速网页的展示。浏览器端缓存的机制分为9种。
+* http缓存
+* websql
+* indexDB
+* cookies
+* **localstorage**
+* sessionstorage
+* application cache
+* cacheStorage
+* flash缓存
+
 
 
 
