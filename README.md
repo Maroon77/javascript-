@@ -24,3 +24,5 @@ array.splice(index,howmany,item1,......,itemn);
 
 
 
+
+
