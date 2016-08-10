@@ -34,7 +34,18 @@ array.splice(index,howmany,item1,......,itemn);
 * cacheStorage
 * flash缓存
 
+### cookies(html存储出现之前):
+#### http请求头上会带着，大小4k，主域名污染
 
+### html5本地存储
+#### localstorage&&sessionstorage
+##### ls永久存储，除非手动删除；ss是在浏览器关闭时删除；大小为5M，存储形式为key-value.IE8+支持
+##### getItem() setItem() removeItem() key() clear()
+##### 可以存储数组、json数据、图片、脚本、样式文件等(数组、json等必须转换成字符串存储：stringify)
+##### 好处：利用本地存储，减少网络传输；弱网络环境下，高延迟，低带宽，尽量把数据本地化。
+
+### html5离线缓存
+application cache
 
 
 
